@@ -43,7 +43,7 @@ const Login = (props) => {
           </div>
           <div className="txt_field">
             <input
-              type="text"
+              type="password"
               required
               value={password}
               onChange={(e) => setPassword(e.target.value)}
